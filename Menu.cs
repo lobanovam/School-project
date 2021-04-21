@@ -18,7 +18,19 @@ public class Menu : MonoBehaviour //главное меню
     }
     public void Play()
     {
-        SceneManager.LoadScene(0);//при нажатии кнопки "Play" запускается основная сцена
+        SceneManager.LoadScene(1);//при нажатии кнопки "Play" запускается основная сцена
+    }
+    public void Lvl1()
+    {
+        SceneManager.LoadScene(1);
+    }
+    public void Lvl2()
+    {
+        SceneManager.LoadScene(2);
+    }
+    public void Lvl3()
+    {
+        SceneManager.LoadScene(3);
     }
     public void Quit()
     {
